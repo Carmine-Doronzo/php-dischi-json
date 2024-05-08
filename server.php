@@ -6,12 +6,11 @@ $discs = json_decode($data_string, true);
 
 header('Content-type: application/json');
 
-$response = [
+ $response = [
   'results' => $discs,
-  //'success' => true
 ];
 
-// generarel'output come stringa json
+
 echo json_encode($response);
 
 ?>

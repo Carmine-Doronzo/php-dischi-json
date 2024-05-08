@@ -4,10 +4,49 @@ img{
 
 body{
     background-color: #1d2d3c;
+    
+   
 }
-
+.p-relative{
+    position: relative;
+    
+    
+}
 .card-color{
     background-color: #112030;
     color: white;
     border-color: #112030;
+}
+.my-modal{
+    display: none;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #112031ce;
+    color: white;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ 
+
+.my-d-flex{
+    display: flex;
+}
+.close-my-modal{
+    padding: 10px;
+    position: absolute;
+    z-index: 6;
+    top: 30px;
+    right: 30px;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
 }
