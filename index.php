@@ -17,10 +17,10 @@
     <div id="app">
         
         <div class="container">
-            <div class="row">
+            <div class="row g-4 py-3">
                 <div class="col-4" v-for="disc in discs">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card card-color ">
+                        <div class="card-body text-center ">
                             <img :src="`${disc.poster}`" alt="">
                             <h3>{{disc.title}}</h3>
                             <p>{{disc.author}}</p>

@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+}
+
+body{
+    background-color: #1d2d3c;
+}
+
+.card-color{
+    background-color: #112030;
+    color: white;
+    border-color: #112030;
+}
