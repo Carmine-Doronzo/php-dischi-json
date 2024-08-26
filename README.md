@@ -1,0 +1,1 @@
+Esercizio in PHP plain in cui gestisco un file .json simulando un server e ricevendo i dati tramite chiamata axios in javascript.
